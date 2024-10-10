@@ -5,6 +5,6 @@ export default class Cl_Contratado extends Cl_Profesor {
         this.horas = horas;
     }
     montoSueldoT(){
-        this.bono + (this.horas*10);
+        this.bono + (this.horas * 10);
     }
 }
